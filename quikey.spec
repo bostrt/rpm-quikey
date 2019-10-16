@@ -17,7 +17,7 @@ Requires:       python3-inotify_simple
 Requires:       python3-tinydb
 Requires:       python3-terminaltables
 Requires:       python3-humanize
-Requires:       python3-pyxdg
+Requires:       python3-xdg
 Requires:       python3-pynput
 Requires:       python3-colored
 
