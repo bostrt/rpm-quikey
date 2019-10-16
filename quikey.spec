@@ -2,7 +2,7 @@
 
 Name:		quikey
 Version:	0.1.0
-Release:	0%{?dist}
+Release:	1
 Summary:	A keyboard macro tool.
 
 
@@ -42,4 +42,7 @@ A keyboard macro tool.
 %{_bindir}/quikey-daemon
 
 %changelog
+* Tue Oct 15 2019 Robert Bost <bostrt@gmail.com> 0.1.0-1
+- Add executables to files listing (bostrt@gmail.com)
+
 
