@@ -38,6 +38,8 @@ A keyboard macro tool.
 %license LICENSE
 %{python3_sitelib}/quikey
 %{python3_sitelib}/quikey-%{version}-py?.?.egg-info
+%{_bindir}/qk
+%{_bindir}/quikey-daemon
 
 %changelog
 
