@@ -2,7 +2,7 @@
 
 Name:		quikey
 Version:	0.1.0
-Release:	2
+Release:	3
 Summary:	A keyboard macro tool.
 
 
@@ -41,6 +41,9 @@ A keyboard macro tool.
 %{_bindir}/quikey-daemon
 
 %changelog
+* Wed Oct 16 2019 Robert Bost <bostrt@gmail.com> 0.1.0-3
+- xdg->pyxdg (bostrt@gmail.com)
+
 * Tue Oct 15 2019 Robert Bost <bostrt@gmail.com> 0.1.0-2
 - Move from pyxdg -> xdg dependency (bostrt@gmail.com)
 
