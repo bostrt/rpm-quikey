@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:		quikey
-Version:	0.1.1
-Release:	0
+Version:	0.1.3
+Release:	1
 Summary:	A keyboard macro tool.
 
 
@@ -41,6 +41,9 @@ A keyboard macro tool.
 %{_bindir}/quikey-daemon
 
 %changelog
+* Sun Nov 22 2020 Robert Bost <rbost@redhat.com> 0.1.3-1
+- Release of 0.1.3
+
 * Wed Oct 16 2019 Robert Bost <bostrt@gmail.com> 0.1.1-0
 - Marking release of quikey 0.1.1
 
