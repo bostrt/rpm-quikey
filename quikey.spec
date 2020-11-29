@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		quikey
-Version:	0.1.4
+Version:	0.1.5
 Release:	1
 Summary:	A keyboard macro tool.
 
@@ -19,6 +19,7 @@ Requires:       python3-terminaltables
 Requires:       python3-humanize
 Requires:       python3-pyxdg
 Requires:       python3-pynput
+Requires:       python3-filelock
 
 %description
 A keyboard macro tool.
@@ -42,6 +43,9 @@ rm -rf test/
 %{_bindir}/quikey-daemon
 
 %changelog
+* Sun Nov 29 2020 Robert Bost <rbost@redhat.com> 0.1.5-1
+- Bug fixes 
+
 * Sun Nov 22 2020 Robert Bost <rbost@redhat.com> 0.1.4-1
 - Release of 0.1.4
 
